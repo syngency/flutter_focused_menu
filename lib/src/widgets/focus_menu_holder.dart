@@ -107,11 +107,11 @@ class _FocusedMenuHolderState extends State<FocusedMenuHolder> {
             await openMenu(context);
           }
         },
-        onLongPress: () async {
-          if (!widget.openWithTap) {
-            await openMenu(context);
-          }
-        },
+        // onLongPress: () async {
+        //   if (!widget.openWithTap) {
+        //     await openMenu(context);
+        //   }
+        // },
         child: widget.child);
   }
 
