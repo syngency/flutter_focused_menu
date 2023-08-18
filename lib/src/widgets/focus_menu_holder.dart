@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:focused_menu/src/models/focused_menu_item.dart';
-import 'package:focused_menu/src/widgets/focused_menu_datails.dart';
+import 'package:focused_menu/src/widgets/focused_menu_details.dart';
 
 class FocusedMenuHolderController {
   late _FocusedMenuHolderState _widgetState;
