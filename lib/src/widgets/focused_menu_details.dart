@@ -78,11 +78,11 @@ class FocusedMenuDetails extends StatelessWidget {
               top: topOffset,
               left: leftOffset,
               child: TweenAnimationBuilder(
-                duration: Duration(milliseconds: 200),
+                duration: Duration(milliseconds: 100),
                 builder: (BuildContext context, dynamic value, Widget? child) {
                   return Transform.scale(
                     scale: value,
-                    alignment: Alignment.center,
+                    alignment: Alignment.topLeft,
                     child: child,
                   );
                 },
